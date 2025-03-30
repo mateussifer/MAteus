@@ -1,9 +1,9 @@
-number1 = int(input("Diga o primeiro numero: "))
-number2 = int(input("Diga o segundo numero: "))
-number3 = int(input("Diga o terceiro numero: "))
-media_arit = (number1 + number2 + number3) / 3
-media_pond = (number1 * 2), (number2 * 2), (number3 * 3)
-media_pond2 = (number1 * 1), (number2 * 2), (number2 * 2)
-print("Media aritmetica:", media_arit)
-print("Media ponderada peso 2, 2 e 3", media_pond)
-print("Media ponderada peso 1, 2 e 2:", media_pond2)
+numero1 = int(input("Primeiro numero: "))
+numero2 = int(input("Segundo numero: "))
+numero3 = int(input("Terceiro numero: "))
+media_aritmetica = (numero1 + numero2 + numero3) / 3
+media_ponderada = (numero1 * 2), (numero2 * 2), (numero3 * 3)
+media_ponderada2 = (numero1 * 1), (numero2 * 2), (numero3 * 2)
+print("Media aritmetica:", media_aritmetica)
+print("Media ponderada peso 2, 2 e 3", media_ponderada)
+print("Media ponderada peso 1, 2 e 2:", media_ponderada2)
