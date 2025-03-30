@@ -1,0 +1,10 @@
+usuário = input("Informe seu usuário: ")
+senha = input("Informe sua senha: ")
+
+while usuário == senha:
+    print("Sua senha e login nao podem ser iguais, tente de novo.")
+    usuário = input("Informe seu login: ")
+    senha = input("Informe sua senha: ")
+
+else:
+    print("Conta criada!")
