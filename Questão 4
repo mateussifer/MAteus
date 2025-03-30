@@ -1,0 +1,12 @@
+periodo = int(input("Distancia que voce andou:"))
+time = int(input("Dias de aluguel :"))
+
+
+if periodo > 100:
+ taxa = (periodo - 100) * 12
+ valor = time * 90 + taxa
+ print(f"Distancia maior que 100, taxa aplicada. Valor: {valor}")
+
+else:
+ valor = time * 90
+ print(f"Valor a ser pago: {valor}")
