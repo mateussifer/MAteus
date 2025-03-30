@@ -1,1 +1,10 @@
+salas = int(input("Informe a quantidade de salas: "))
+alunos = int(input("Informe a quantidade total de alunos: "))
 
+media = alunos // salas
+
+if media > 40:
+    print(f"Atencao, a media é superior a 40 alunos, sendo {media} alunos.")
+
+else:
+ print(f"A media de alunos por sala é {media}.")
