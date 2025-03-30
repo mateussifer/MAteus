@@ -1,0 +1,8 @@
+primeiro_salario = int(input("Informe seu primeiro salario: "))
+temp = int(input("Informe o tempo que voce trabalha: "))
+
+
+ultimo_salario = primeiro_salario * (2 ** temp)
+
+
+print(f"Seu salario apos {temp} anos de servico sera: {ultimo_salario}.")
